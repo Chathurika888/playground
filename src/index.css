@@ -13,18 +13,18 @@
     --color-border: #e2d6cf; /* Subtle border with sufficient contrast */
     --color-text: #1a1c1e; /* Core text (meets 7:1 on white) */
     --color-text-subtle: #5a6068; /* Muted text (still passes 4.5:1 on light bg-alt) */
-    --color-primary: #2563eb; /* Blue 600 accessible on white */
+    --color-primary: #dc2626; /* Red 600 accessible on white */
     --color-primary-contrast: #ffffff; /* Text/icon on primary */
     --color-secondary: #f59e0b; /* Warm secondary (use with dark text) */
     --color-secondary-contrast: #1a1c1e;
     --color-accent: #9333ea; /* Accent purple */
     --color-accent-contrast: #ffffff;
-    --color-focus: #1d4ed8; /* Focus outline (3:1+ against light backgrounds) */
+    --color-focus: #dc2626; /* Focus outline (3:1+ against light backgrounds) */
     --color-success: #15803d;
     --color-warning: #b45309;
     --color-danger: #b91c1c;
-    --color-link: #1d4ed8;
-    --color-link-hover: #1e40af;
+    --color-link: #dc2626;
+    --color-link-hover: #b91c1c;
     --radius-base: 0.75rem;
     background: linear-gradient(
       135deg,
@@ -46,18 +46,18 @@
     --color-border: #334155;
     --color-text: #f1f5f9;
     --color-text-subtle: #cbd5e1;
-    --color-primary: #60a5fa; /* Light blue for dark bg */
+    --color-primary: #ef4444; /* Light red for dark bg */
     --color-primary-contrast: #0f172a;
     --color-secondary: #fbbf24;
     --color-secondary-contrast: #0f172a;
     --color-accent: #c084fc;
     --color-accent-contrast: #0f172a;
-    --color-focus: #93c5fd; /* 3:1+ focus outline on dark bg */
+    --color-focus: #f87171; /* 3:1+ focus outline on dark bg */
     --color-success: #34d399;
     --color-warning: #f59e0b;
     --color-danger: #f87171;
-    --color-link: #93c5fd;
-    --color-link-hover: #bfdbfe;
+    --color-link: #f87171;
+    --color-link-hover: #fca5a5;
     background: linear-gradient(
       135deg,
       var(--color-bg) 0%,
